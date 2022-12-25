@@ -1,40 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
-
-  <link rel="stylesheet" href="style.css"> 
-</head>
-<body>
-  <main>
-  <div class="img">
-    <img class="patternCard" alt="patters Card" src="./images/bg-pattern-card.svg">
-    <img class="victor" alt="victor Imagine" src="./images/image-victor.jpg">
-  </div>
-  <div class="important">
-      <h1 class="name">Victor Crest</h1>
-      <h1 class="age">26</h1>
-      <h1 class="location">London</h1>
-  </div>
-    <div class="amounts">
-        <p class="numbers1">80K</p>
-          <p class="numbers2">803K</p>
-          <p class="numbers3">1.4K</p>
-    </div>
-    <div class="others">
-        <p class="Followers"> Followers</p>
-          <p class="likes">Likes</p>
-          <p class="photos">Photos</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="profile_img">
+        <img
+          src="https://profile-card-component-chang.netlify.app/images/image-victor.jpg"
+          alt="profile_image"
+        />
       </div>
-    </main>
-  <div class="attribution" hidden>
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+      <div class="banner">
+        <img
+          src="https://profile-card-component-chang.netlify.app/images/bg-pattern-card.svg"
+          alt="profile_banner"
+        />
+      </div>
+      <div class="info">
+        <div class="about">
+          <div class="top">
+            <span class="name">Victor Crest</span>
+            <span class="age">26</span>
+          </div>
+
+          <span class="location">London</span>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <span class="amount">80K</span>
+            <span class="type">Followers</span>
+          </div>
+
+          <div class="stat">
+            <span class="amount">803K</span>
+            <span class="type">Likes</span>
+          </div>
+
+          <div class="stat">
+            <span class="amount">1.4k</span>
+            <span class="type">Photos</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
