@@ -1,0 +1,171 @@
+@font-face {
+    font-family: KumbhSans;
+    src: url(./font/KumbhSans-Regular.ttf);
+}
+
+body {
+    background-color: #34568B;
+    font-family: 'KumbhSans';
+}
+
+.patternCard{
+    width: 320px;
+    height: 130px;
+    position: fixed;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.victor {
+    position: fixed;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+}
+
+.name {
+    font-size: 18px;
+    width: 210px;
+    height: 200px;
+    padding-left: 110px;
+    padding-top: 70px;
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: -1;
+}
+
+.age {
+    font-size: 18px;
+    color:  hsl(0, 0%, 59%);
+    position: absolute;
+    top: 47%;
+    right: 43.5%;
+    transform: translate(-47%, -42%);
+}
+
+.location {
+    font-size: 14px;
+    color:  hsl(0, 0%, 59%);
+    position: fixed;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.amounts {
+    font-size: 18px;
+    width: 180px;
+    padding: 70px;
+    padding-top: 0.5%;
+    border-top:0.5px solid  hsl(0, 0%, 59%);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.others {
+    font-size: 14px;
+    color: hsl(0, 0%, 59%);
+    width: 210px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 71.5%;
+    left: 49.5%;
+    transform: translate(-50%, -50%);
+}
+
+
+@media (max-width: 375px) {
+.patternCard{
+    width: 320px;
+    height: 130px;
+    position: fixed;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.victor {
+    position: fixed;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+}
+
+.name {
+    font-size: 18px;
+    width: 223px;
+    height: 200px;
+    padding-left: 26%;
+    padding-top: 18%;
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: -1;
+}
+
+.age {
+    font-size: 18px;
+    color:  hsl(0, 0%, 59%);
+    position: absolute;
+    top: 46.5%;
+    right: 29%;
+    transform: translate(-47%, -42%);
+}
+
+.location {
+    font-size: 14px;
+    color:  hsl(0, 0%, 59%);
+    position: fixed;
+    top: 52%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+}
+
+.amounts {
+    font-size: 18px;
+    width: 180px;
+    padding: 70px;
+    padding-top: 0.5%;
+    border-top:0.5px solid  hsl(0, 0%, 59%);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.others {
+    font-size: 14px;
+    color: hsl(0, 0%, 59%);
+    width: 210px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 73%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+}
+
+}
